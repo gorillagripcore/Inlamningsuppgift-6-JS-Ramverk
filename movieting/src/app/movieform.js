@@ -13,7 +13,7 @@ export default function MovieForm({ addMovie }) {
       return;
     }
 
-    const stars = `<img style="height:20px; float:right;" src="https://cdn.discordapp.com/attachments/1065202775782330368/1237459221428047912/star.png?ex=663bb935&is=663a67b5&hm=0b1ca93f8a0103fc08a55c3324ff9ab75d3f82b216057e5dafecb7c927213e21&" alt="Star">`;
+    const stars = `<img style="height:20px; float:right;" src="https://i.imgur.com/ZL8u2NV.png" alt="Star">`;
     const starRating = stars.repeat(parseInt(rating));
 
     const newMovie = {
